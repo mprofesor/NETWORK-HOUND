@@ -1,0 +1,42 @@
+2025-04-28 14:06:11,575 - INFO - Ping to localhost successful, RTT: 0.0001575946807861328 ms
+2025-04-28 14:06:11,578 - INFO - Ping to 192.168.88.1 successful, RTT: 0.0035500526428222656 ms
+2025-04-28 14:06:11,578 - INFO - Ping to 192.168.1.1 successful, RTT: 0.003129720687866211 ms
+2025-04-28 14:06:11,585 - INFO - Ping to 8.8.8.8 successful, RTT: 0.010922431945800781 ms
+2025-04-28 14:06:11,586 - INFO - Ping to 1.1.1.1 successful, RTT: 0.01088857650756836 ms
+2025-04-28 14:06:11,599 - INFO - Ping to google.com successful, RTT: 0.012497901916503906 ms
+2025-04-28 14:06:21,613 - INFO - Ping to localhost successful, RTT: 0.0010273456573486328 ms
+2025-04-28 14:06:21,616 - INFO - Ping to 192.168.88.1 successful, RTT: 0.003231048583984375 ms
+2025-04-28 14:06:21,616 - INFO - Ping to 192.168.1.1 successful, RTT: 0.005045413970947266 ms
+2025-04-28 14:06:21,623 - INFO - Ping to 8.8.8.8 successful, RTT: 0.009746074676513672 ms
+2025-04-28 14:06:21,623 - INFO - Ping to 1.1.1.1 successful, RTT: 0.011591911315917969 ms
+2025-04-28 14:06:21,634 - INFO - Ping to google.com successful, RTT: 0.010290384292602539 ms
+2025-04-28 14:06:31,649 - INFO - Ping to localhost successful, RTT: 0.0005059242248535156 ms
+2025-04-28 14:06:31,651 - INFO - Ping to 192.168.1.1 successful, RTT: 0.004458189010620117 ms
+2025-04-28 14:06:31,651 - INFO - Ping to 192.168.88.1 successful, RTT: 0.004295825958251953 ms
+2025-04-28 14:06:31,658 - INFO - Ping to 8.8.8.8 successful, RTT: 0.009921789169311523 ms
+2025-04-28 14:06:31,659 - INFO - Ping to 1.1.1.1 successful, RTT: 0.012981414794921875 ms
+2025-04-28 14:06:31,671 - INFO - Ping to google.com successful, RTT: 0.010128498077392578 ms
+2025-04-28 14:06:41,684 - INFO - Ping to localhost successful, RTT: 0.00041413307189941406 ms
+2025-04-28 14:06:41,688 - INFO - Ping to 192.168.1.1 successful, RTT: 0.004008293151855469 ms
+2025-04-28 14:06:41,688 - INFO - Ping to 192.168.88.1 successful, RTT: 0.004740715026855469 ms
+2025-04-28 14:06:41,696 - INFO - Ping to 1.1.1.1 successful, RTT: 0.012473583221435547 ms
+2025-04-28 14:06:41,696 - INFO - Ping to 8.8.8.8 successful, RTT: 0.013333320617675781 ms
+2025-04-28 14:06:41,708 - INFO - Ping to google.com successful, RTT: 0.011646509170532227 ms
+2025-04-28 14:06:51,721 - ERROR - Unexpected error pinging 192.168.88.1: [Errno 101] Network is unreachable
+2025-04-28 14:06:51,722 - ERROR - Unexpected error pinging 192.168.1.1: [Errno 101] Network is unreachable
+2025-04-28 14:06:51,722 - ERROR - Unexpected error pinging 1.1.1.1: [Errno 101] Network is unreachable
+2025-04-28 14:06:51,722 - ERROR - Unexpected error pinging 8.8.8.8: [Errno 101] Network is unreachable
+2025-04-28 14:06:51,722 - ERROR - Ping to google.com failed: Ping response was False
+2025-04-28 14:06:51,723 - INFO - Ping to localhost successful, RTT: 0.0001785755157470703 ms
+2025-04-28 14:07:01,733 - ERROR - Unexpected error pinging 192.168.1.1: [Errno 101] Network is unreachable
+2025-04-28 14:07:01,735 - ERROR - Unexpected error pinging 192.168.88.1: [Errno 101] Network is unreachable
+2025-04-28 14:07:01,735 - ERROR - Unexpected error pinging 1.1.1.1: [Errno 101] Network is unreachable
+2025-04-28 14:07:01,735 - ERROR - Ping to google.com failed: Ping response was False
+2025-04-28 14:07:01,735 - ERROR - Unexpected error pinging 8.8.8.8: [Errno 101] Network is unreachable
+2025-04-28 14:07:01,735 - INFO - Ping to localhost successful, RTT: 0.0004429817199707031 ms
+2025-04-28 14:07:11,746 - ERROR - Ping to google.com failed: Ping response was False
+2025-04-28 14:07:11,746 - ERROR - Unexpected error pinging 192.168.1.1: [Errno 101] Network is unreachable
+2025-04-28 14:07:11,747 - ERROR - Unexpected error pinging 192.168.88.1: [Errno 101] Network is unreachable
+2025-04-28 14:07:11,747 - ERROR - Unexpected error pinging 1.1.1.1: [Errno 101] Network is unreachable
+2025-04-28 14:07:11,747 - ERROR - Unexpected error pinging 8.8.8.8: [Errno 101] Network is unreachable
+2025-04-28 14:07:11,747 - INFO - Ping to localhost successful, RTT: 0.00013327598571777344 ms

@@ -1,0 +1,1 @@
+# Wizualizacja sieci (tekst/graf)
