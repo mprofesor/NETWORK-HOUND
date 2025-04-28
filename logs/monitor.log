@@ -1,42 +1,66 @@
-2025-04-28 14:06:11,575 - INFO - Ping to localhost successful, RTT: 0.0001575946807861328 ms
-2025-04-28 14:06:11,578 - INFO - Ping to 192.168.88.1 successful, RTT: 0.0035500526428222656 ms
-2025-04-28 14:06:11,578 - INFO - Ping to 192.168.1.1 successful, RTT: 0.003129720687866211 ms
-2025-04-28 14:06:11,585 - INFO - Ping to 8.8.8.8 successful, RTT: 0.010922431945800781 ms
-2025-04-28 14:06:11,586 - INFO - Ping to 1.1.1.1 successful, RTT: 0.01088857650756836 ms
-2025-04-28 14:06:11,599 - INFO - Ping to google.com successful, RTT: 0.012497901916503906 ms
-2025-04-28 14:06:21,613 - INFO - Ping to localhost successful, RTT: 0.0010273456573486328 ms
-2025-04-28 14:06:21,616 - INFO - Ping to 192.168.88.1 successful, RTT: 0.003231048583984375 ms
-2025-04-28 14:06:21,616 - INFO - Ping to 192.168.1.1 successful, RTT: 0.005045413970947266 ms
-2025-04-28 14:06:21,623 - INFO - Ping to 8.8.8.8 successful, RTT: 0.009746074676513672 ms
-2025-04-28 14:06:21,623 - INFO - Ping to 1.1.1.1 successful, RTT: 0.011591911315917969 ms
-2025-04-28 14:06:21,634 - INFO - Ping to google.com successful, RTT: 0.010290384292602539 ms
-2025-04-28 14:06:31,649 - INFO - Ping to localhost successful, RTT: 0.0005059242248535156 ms
-2025-04-28 14:06:31,651 - INFO - Ping to 192.168.1.1 successful, RTT: 0.004458189010620117 ms
-2025-04-28 14:06:31,651 - INFO - Ping to 192.168.88.1 successful, RTT: 0.004295825958251953 ms
-2025-04-28 14:06:31,658 - INFO - Ping to 8.8.8.8 successful, RTT: 0.009921789169311523 ms
-2025-04-28 14:06:31,659 - INFO - Ping to 1.1.1.1 successful, RTT: 0.012981414794921875 ms
-2025-04-28 14:06:31,671 - INFO - Ping to google.com successful, RTT: 0.010128498077392578 ms
-2025-04-28 14:06:41,684 - INFO - Ping to localhost successful, RTT: 0.00041413307189941406 ms
-2025-04-28 14:06:41,688 - INFO - Ping to 192.168.1.1 successful, RTT: 0.004008293151855469 ms
-2025-04-28 14:06:41,688 - INFO - Ping to 192.168.88.1 successful, RTT: 0.004740715026855469 ms
-2025-04-28 14:06:41,696 - INFO - Ping to 1.1.1.1 successful, RTT: 0.012473583221435547 ms
-2025-04-28 14:06:41,696 - INFO - Ping to 8.8.8.8 successful, RTT: 0.013333320617675781 ms
-2025-04-28 14:06:41,708 - INFO - Ping to google.com successful, RTT: 0.011646509170532227 ms
-2025-04-28 14:06:51,721 - ERROR - Unexpected error pinging 192.168.88.1: [Errno 101] Network is unreachable
-2025-04-28 14:06:51,722 - ERROR - Unexpected error pinging 192.168.1.1: [Errno 101] Network is unreachable
-2025-04-28 14:06:51,722 - ERROR - Unexpected error pinging 1.1.1.1: [Errno 101] Network is unreachable
-2025-04-28 14:06:51,722 - ERROR - Unexpected error pinging 8.8.8.8: [Errno 101] Network is unreachable
-2025-04-28 14:06:51,722 - ERROR - Ping to google.com failed: Ping response was False
-2025-04-28 14:06:51,723 - INFO - Ping to localhost successful, RTT: 0.0001785755157470703 ms
-2025-04-28 14:07:01,733 - ERROR - Unexpected error pinging 192.168.1.1: [Errno 101] Network is unreachable
-2025-04-28 14:07:01,735 - ERROR - Unexpected error pinging 192.168.88.1: [Errno 101] Network is unreachable
-2025-04-28 14:07:01,735 - ERROR - Unexpected error pinging 1.1.1.1: [Errno 101] Network is unreachable
-2025-04-28 14:07:01,735 - ERROR - Ping to google.com failed: Ping response was False
-2025-04-28 14:07:01,735 - ERROR - Unexpected error pinging 8.8.8.8: [Errno 101] Network is unreachable
-2025-04-28 14:07:01,735 - INFO - Ping to localhost successful, RTT: 0.0004429817199707031 ms
-2025-04-28 14:07:11,746 - ERROR - Ping to google.com failed: Ping response was False
-2025-04-28 14:07:11,746 - ERROR - Unexpected error pinging 192.168.1.1: [Errno 101] Network is unreachable
-2025-04-28 14:07:11,747 - ERROR - Unexpected error pinging 192.168.88.1: [Errno 101] Network is unreachable
-2025-04-28 14:07:11,747 - ERROR - Unexpected error pinging 1.1.1.1: [Errno 101] Network is unreachable
-2025-04-28 14:07:11,747 - ERROR - Unexpected error pinging 8.8.8.8: [Errno 101] Network is unreachable
-2025-04-28 14:07:11,747 - INFO - Ping to localhost successful, RTT: 0.00013327598571777344 ms
+2025-04-28 19:02:32,732 - INFO - Ping to 192.168.88.241 successful, RTT: 0.0003390312194824219 ms
+2025-04-28 19:02:32,753 - INFO - Ping to 192.168.88.1 successful, RTT: 0.022306203842163086 ms
+2025-04-28 19:02:32,867 - INFO - Ping to 192.168.88.236 successful, RTT: 0.1365818977355957 ms
+2025-04-28 19:02:32,868 - INFO - False
+2025-04-28 19:02:32,868 - INFO - False
+2025-04-28 19:02:32,868 - INFO - False
+2025-04-28 19:02:42,875 - INFO - Ping to 192.168.88.241 successful, RTT: 7.367134094238281e-05 ms
+2025-04-28 19:02:42,885 - INFO - Ping to 192.168.88.1 successful, RTT: 0.009406089782714844 ms
+2025-04-28 19:02:43,648 - INFO - Ping to 192.168.88.236 successful, RTT: 0.7732033729553223 ms
+2025-04-28 19:02:43,649 - INFO - False
+2025-04-28 19:02:43,649 - INFO - False
+2025-04-28 19:02:43,649 - INFO - False
+2025-04-28 19:02:53,662 - INFO - Ping to 192.168.88.241 successful, RTT: 0.0020411014556884766 ms
+2025-04-28 19:02:53,699 - INFO - Ping to 192.168.88.1 successful, RTT: 0.038016557693481445 ms
+2025-04-28 19:02:55,665 - ERROR - Ping to 192.168.88.236 failed: Timeout or unreachable
+2025-04-28 19:02:55,665 - INFO - False
+2025-04-28 19:02:55,665 - INFO - False
+2025-04-28 19:02:55,665 - INFO - False
+2025-04-28 19:03:05,676 - INFO - Ping to 192.168.88.241 successful, RTT: 0.00027680397033691406 ms
+2025-04-28 19:03:05,680 - INFO - Ping to 192.168.88.1 successful, RTT: 0.00431060791015625 ms
+2025-04-28 19:03:06,585 - INFO - Ping to 192.168.88.236 successful, RTT: 0.9095816612243652 ms
+2025-04-28 19:03:06,586 - INFO - False
+2025-04-28 19:03:06,586 - INFO - False
+2025-04-28 19:03:06,586 - INFO - False
+2025-04-28 19:03:16,596 - INFO - Ping to 192.168.88.241 successful, RTT: 0.00029754638671875 ms
+2025-04-28 19:03:16,630 - INFO - Ping to 192.168.88.1 successful, RTT: 0.03391075134277344 ms
+2025-04-28 19:03:17,610 - INFO - Ping to 192.168.88.236 successful, RTT: 1.015134334564209 ms
+2025-04-28 19:03:17,611 - INFO - False
+2025-04-28 19:03:17,611 - INFO - False
+2025-04-28 19:03:17,611 - INFO - False
+2025-04-28 19:03:27,624 - INFO - Ping to 192.168.88.241 successful, RTT: 0.00066375732421875 ms
+2025-04-28 19:03:27,632 - INFO - Ping to 192.168.88.1 successful, RTT: 0.009938478469848633 ms
+2025-04-28 19:03:28,207 - INFO - Ping to 192.168.88.236 successful, RTT: 0.5835211277008057 ms
+2025-04-28 19:03:28,207 - INFO - False
+2025-04-28 19:03:28,207 - INFO - False
+2025-04-28 19:03:28,207 - INFO - False
+2025-04-28 19:03:38,219 - INFO - Ping to 192.168.88.241 successful, RTT: 0.0005497932434082031 ms
+2025-04-28 19:03:38,231 - INFO - Ping to 192.168.88.1 successful, RTT: 0.013059377670288086 ms
+2025-04-28 19:03:39,941 - INFO - Ping to 192.168.88.236 successful, RTT: 1.7225291728973389 ms
+2025-04-28 19:03:39,941 - INFO - False
+2025-04-28 19:03:39,942 - INFO - False
+2025-04-28 19:03:39,942 - INFO - False
+2025-04-28 19:03:49,953 - INFO - Ping to 192.168.88.241 successful, RTT: 0.0008764266967773438 ms
+2025-04-28 19:03:49,968 - INFO - Ping to 192.168.88.1 successful, RTT: 0.014764070510864258 ms
+2025-04-28 19:03:51,955 - ERROR - Ping to 192.168.88.236 failed: Timeout or unreachable
+2025-04-28 19:03:51,955 - INFO - False
+2025-04-28 19:03:51,955 - INFO - False
+2025-04-28 19:03:51,956 - INFO - False
+2025-04-28 19:04:01,965 - INFO - Ping to 192.168.88.241 successful, RTT: 0.0003452301025390625 ms
+2025-04-28 19:04:01,988 - INFO - Ping to 192.168.88.1 successful, RTT: 0.02434372901916504 ms
+2025-04-28 19:04:03,453 - INFO - Ping to 192.168.88.236 successful, RTT: 1.488337516784668 ms
+2025-04-28 19:04:03,453 - INFO - False
+2025-04-28 19:04:03,454 - INFO - False
+2025-04-28 19:04:03,454 - INFO - False
+2025-04-28 19:05:17,591 - INFO - Ping to 192.168.88.241 successful, RTT: 0.0003821849822998047 ms
+2025-04-28 19:05:17,596 - INFO - Ping to 192.168.88.1 successful, RTT: 0.0061740875244140625 ms
+2025-04-28 19:05:17,733 - INFO - Ping to 192.168.88.236 successful, RTT: 0.14280915260314941 ms
+2025-04-28 19:05:27,747 - INFO - Ping to 192.168.88.241 successful, RTT: 0.0015375614166259766 ms
+2025-04-28 19:05:27,757 - INFO - Ping to 192.168.88.1 successful, RTT: 0.010379314422607422 ms
+2025-04-28 19:05:28,225 - INFO - Ping to 192.168.88.236 successful, RTT: 0.4797811508178711 ms
+2025-04-28 19:05:38,238 - INFO - Ping to 192.168.88.241 successful, RTT: 0.0008680820465087891 ms
+2025-04-28 19:05:38,251 - INFO - Ping to 192.168.88.1 successful, RTT: 0.014161109924316406 ms
+2025-04-28 19:05:38,422 - INFO - Ping to 192.168.88.236 successful, RTT: 0.1844801902770996 ms
+2025-04-28 19:05:48,433 - INFO - Ping to 192.168.88.241 successful, RTT: 0.0002994537353515625 ms
+2025-04-28 19:05:48,458 - INFO - Ping to 192.168.88.1 successful, RTT: 0.025696277618408203 ms
+2025-04-28 19:05:48,554 - INFO - Ping to 192.168.88.236 successful, RTT: 0.12186932563781738 ms

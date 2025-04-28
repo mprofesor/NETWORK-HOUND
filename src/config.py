@@ -9,8 +9,8 @@ PING_INTERVAL = 10
 # Timeout dla pojedynczego pinga (większa sieć i starsza infrastruktura może wymagać zwiększenia parametru)
 TIMEOUT = 2         
 
-# Ścieżka do pliku z hostami do monitorowania
-TARGETS_FILE = 'targets.txt'
-
 # Ścieżka do pliku logów
 LOG_FILE = 'logs/monitor.log'
+
+# Ścieżka do pliku z hostami do monitorowania (To musi być ostatni config!!!)
+TARGETS_FILE = 'targets.txt'

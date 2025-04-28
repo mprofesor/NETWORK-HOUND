@@ -8,6 +8,8 @@ from ping3 import ping
 from utils import load_targets, log_status
 from config import *
 import socket
+from network_mapper import scan_network, print_network, build_graph
+from targets_manager import update_targets_from_scan
 
 
 # Co tu się dzieje:
@@ -73,8 +75,6 @@ async def monitor_hosts(hosts: list):
 
         await asyncio.sleep(PING_INTERVAL)
 
-
-
 #Co tu się dzieje:
 
   # Konfigurujemy system logowania:
@@ -87,13 +87,26 @@ async def monitor_hosts(hosts: list):
      #   Uruchom monitor_hosts() asynchronicznie (asyncio.run(...)).
 
 def main():
+    devices = scan_network('192.168.88.0/24')
+    print_network(devices)
+    build_graph(devices)
+
+    new_targets = update_targets_from_scan(devices)
+
+
+    # Podmianka ścieżki dynamicznie
+    if new_targets:
+        targets = new_targets  # <-- Ładujemy zaktualizowane targets!
+    else:
+        targets = TARGETS_FILE # Standardowo
+
     logging.basicConfig(
         filename=LOG_FILE,
         level=logging.INFO,
         format='%(asctime)s - %(levelname)s - %(message)s'
     )
 
-    hosts = load_targets(TARGETS_FILE)
+    hosts = load_targets(targets)
     if not hosts:
         print("No hosts to monitor. Please check targets.txt")
         return
@@ -101,6 +114,7 @@ def main():
     print(f"Monitoring {len(hosts)} hosts every {PING_INTERVAL} seconds...")
 
     asyncio.run(monitor_hosts(hosts))
+
 
 if __name__ == "__main__":
     main()

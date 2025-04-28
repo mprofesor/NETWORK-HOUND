@@ -1,1 +1,4 @@
 ping3
+python-nmap
+networkx
+matplotlib
