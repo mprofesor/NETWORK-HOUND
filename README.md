@@ -1,12 +1,12 @@
 # NET-HOUND - network-discovery-monitor
 
-## NET-HOUND to program służący do skanowania i monitorowania sieci lokalnej.
+NET-HOUND to program służący do skanowania i monitorowania sieci lokalnej.
 
 ## Widok projektu (struktura plików/folderów)
 
  network-monitor/\
 │\
-├── src/                         # Główne źródła kodu\
+├── src/                          # Główne źródła kodu\
 │   ├── monitor.py                # Terminalowe monitorowanie hostów (pingowanie)\
 │   ├── network_mapper.py         # Skanowanie sieci (nmap)\
 │   ├── network_visualizer.py     # Wizualizacja sieci (tekst/graf)\
@@ -37,5 +37,5 @@ logs/            | Gromadzenie logów działania monitoringu (tworzone automatyc
 targets.txt      | Lista adresów do monitorowania.\
 requirements.txt | Wszystkie wymagane biblioteki (ping3, nmap, networkx, itp.).\
 examples/        | Przykładowe dane wejściowe/wyjściowe do testowania lub pokazywania w kursie.\
-setup.sh         | Skrypt pomagający szybko postawić środowisko (np. dla użytkowników/kursantów).\
+setup.sh         | Skrypt pomagający szybko postawić środowisko (np. dla użytkowników/kursantów).
 
