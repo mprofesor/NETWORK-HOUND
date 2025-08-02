@@ -1,0 +1,1 @@
+# (Opcjonalnie) Skrypt instalacyjny (setup, venv, pip install)

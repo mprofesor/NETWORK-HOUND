@@ -87,7 +87,7 @@ async def monitor_hosts(hosts: list):
      #   Uruchom monitor_hosts() asynchronicznie (asyncio.run(...)).
 
 def main():
-    devices = scan_network('192.168.88.0/24')
+    devices = scan_network('192.168.0.1/24')
     print_network(devices)
     build_graph(devices)
 

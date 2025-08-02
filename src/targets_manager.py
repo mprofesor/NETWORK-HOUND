@@ -38,9 +38,7 @@ def update_targets_from_scan(devices, config_path='src/config.py'):
             for line in lines:
                 if line.startswith('TARGETS_FILE'):
                     file.write(f"TARGETS_FILE = '{new_file}'\n")
-                    print(new_file)
                     new_targets_file = new_file # < = ZAPAMIĘTUJEMY
-                    print(new_targets_file)
                 else:
                     file.write(line)
 

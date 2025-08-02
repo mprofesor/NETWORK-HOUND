@@ -13,4 +13,4 @@ TIMEOUT = 2
 LOG_FILE = 'logs/monitor.log'
 
 # Ścieżka do pliku z hostami do monitorowania (To musi być ostatni config!!!)
-TARGETS_FILE = 'targets.txt'
+TARGETS_FILE = 'kierczaki.txt'

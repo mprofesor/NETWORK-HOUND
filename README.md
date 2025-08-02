@@ -27,7 +27,7 @@ NET-HOUND to program służący do skanowania i monitorowania sieci lokalnej.
 │   ├── sample_topology.json      # Przykład wyeksportowanej topologii\
 │   ├── sample_targets.txt        # Przykład pliku targetów\
 │\
-└── setup.sh                      # Skrypt instalacyjny (setup, venv, pip install)\
+└── setup.sh                      # Skrypt instalacyjny (setup, venv, pip install)
 
 ## Opis folderów i plików
 
@@ -39,3 +39,19 @@ requirements.txt | Wszystkie wymagane biblioteki (ping3, nmap, networkx, itp.).\
 examples/        | Przykładowe dane wejściowe/wyjściowe do testowania lub pokazywania w kursie.\
 setup.sh         | Skrypt pomagający szybko postawić środowisko (np. dla użytkowników/kursantów).
 
+## Ważna informacja
+
+Program przeszukuje konkretną podsieć. Program nie znajdzie nic póki nie zostanie zmieniona linia kodu:
+
+```pyhton
+def main():
+    devices = scan_network('192.168.1.1/24')
+```
+
+Zmiana adresu zmieni Target!
+
+## Uruchamianie programu
+
+```bash
+python3 src/monitor.py
+```
